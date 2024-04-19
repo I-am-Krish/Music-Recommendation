@@ -1,0 +1,7 @@
+[2024-04-19 13:02:49,746] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\preprocessor.pkl
+[2024-04-19 13:02:49,750] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\model.pkl
+[2024-04-19 13:02:50,576] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-19 13:02:50,581] 96 werkzeug - INFO -  * Debugger PIN: 825-118-870
+[2024-04-19 13:02:53,013] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 13:02:53] "GET / HTTP/1.1" 200 -
+[2024-04-19 13:02:53,508] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 13:02:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-04-19 13:04:25,625] 96 werkzeug - INFO -  * Detected change in 'c:\\Users\\krish\\OneDrive\\Desktop\\Music Recomendation\\app.py', reloading

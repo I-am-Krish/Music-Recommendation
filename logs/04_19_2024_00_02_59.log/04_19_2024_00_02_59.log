@@ -1,0 +1,4 @@
+[2024-04-19 00:02:59,362] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\preprocessor.pkl
+[2024-04-19 00:02:59,365] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\model.pkl
+[2024-04-19 00:02:59,372] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-19 00:02:59,379] 96 werkzeug - INFO -  * Debugger PIN: 825-118-870

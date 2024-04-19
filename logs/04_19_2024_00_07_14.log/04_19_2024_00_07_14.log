@@ -1,0 +1,6 @@
+[2024-04-19 00:07:14,330] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\preprocessor.pkl
+[2024-04-19 00:07:14,330] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\model.pkl
+[2024-04-19 00:07:14,330] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-19 00:07:14,345] 96 werkzeug - INFO -  * Debugger PIN: 825-118-870
+[2024-04-19 00:07:36,707] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 00:07:36] "GET / HTTP/1.1" 200 -
+[2024-04-19 00:07:36,739] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 00:07:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

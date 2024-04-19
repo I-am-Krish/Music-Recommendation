@@ -1,0 +1,11 @@
+[2024-04-19 14:44:51,979] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\preprocessor.pkl
+[2024-04-19 14:44:51,983] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\model.pkl
+[2024-04-19 14:44:52,592] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-19 14:44:52,595] 96 werkzeug - INFO -  * Debugger PIN: 825-118-870
+[2024-04-19 14:44:55,220] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 14:44:55] "GET / HTTP/1.1" 200 -
+[2024-04-19 14:44:55,359] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 14:44:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-04-19 14:45:24,355] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 14:45:24] "[35m[1mPOST /recommend_song HTTP/1.1[0m" 500 -
+[2024-04-19 14:45:24,434] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 14:45:24] "[36mGET /recommend_song?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-04-19 14:45:24,449] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 14:45:24] "[36mGET /recommend_song?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-04-19 14:45:24,486] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 14:45:24] "[36mGET /recommend_song?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-04-19 14:46:30,927] 96 werkzeug - INFO -  * Detected change in 'c:\\Users\\krish\\OneDrive\\Desktop\\Music Recomendation\\src\\pipeline\\train_pipeline.py', reloading

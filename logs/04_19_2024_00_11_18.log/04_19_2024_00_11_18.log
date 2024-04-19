@@ -1,0 +1,6 @@
+[2024-04-19 00:11:18,913] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\preprocessor.pkl
+[2024-04-19 00:11:18,916] 38 root - INFO - Object loaded from C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\model.pkl
+[2024-04-19 00:11:19,579] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-19 00:11:19,580] 96 werkzeug - INFO -  * Debugger PIN: 825-118-870
+[2024-04-19 00:11:23,589] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 00:11:23] "GET / HTTP/1.1" 200 -
+[2024-04-19 00:11:42,909] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 00:11:42] "POST /recommend_song HTTP/1.1" 200 -
