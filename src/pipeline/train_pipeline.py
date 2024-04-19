@@ -2,16 +2,14 @@ import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 from src.utils import load_function
 from src.exception import CustomException
+import os
 
-# Load the data
 data_path = r'C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\data\music.csv'
 df = pd.read_csv(data_path)
 df = df.iloc[:100001]
 
-# Absolute paths for preprocessor and model
-preprocessor_path = r'C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\preprocessor.pkl'
-model_path = r'C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\model.pkl'
-
+self.preprocessor = load_function(file_path=self.config.preprocessor_path)
+self.model = load_function(file_path=self.config.model_path)
 try:
     preprocessor = load_function(file_path=preprocessor_path)
     model = load_function(file_path=model_path)
@@ -19,19 +17,15 @@ except Exception as e:
     print(f"Error loading files: {e}")
 
 def preprocess_input(input_data, preprocessor):
-    # Preprocess the input data
     X_preprocessed = preprocessor.transform(input_data)
     
     return X_preprocessed
 
 def recommend_songs(input_data, model, preprocessor):
-    # Preprocess the input song data
     X_input = preprocess_input(input_data, preprocessor)
     
-    # Find the nearest neighbors
     distances, indices = model.kneighbors(X_input)
     
-    # Get the recommended song names
     recommended_songs = df.iloc[indices[0]]['name'].values
     
     return recommended_songs
