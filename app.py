@@ -4,7 +4,6 @@ from src.pipeline.prediction_pipeline import MusicRecommendationModel
 application = Flask(__name__)
 app = application
 
-# Initialize the recommendation model
 recommendation_model = MusicRecommendationModel()
 recommendation_model.load_pretrained_model()
 
@@ -23,10 +22,8 @@ def recommend_song():
         key = request.form.get('key')
         ID = request.form.get('ID')
 
-        # Convert artists string to list
         artists_list = artists.replace('[', '').replace(']', '').replace("'", "").split(', ')
 
-        # Prepare input data for prediction
         input_data = {
             'name': [song_name],
             'year': [year],
@@ -35,10 +32,11 @@ def recommend_song():
             'ID': [int(ID)]
         }
 
-        # Get recommendations
         recommended_songs = recommendation_model.recommend_songs(song_name)
 
         return render_template('results.html', song_name=song_name, final_result=recommended_songs)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
+
+#http://127.0.0.1:5000/ in browser
