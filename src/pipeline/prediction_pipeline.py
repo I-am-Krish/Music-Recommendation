@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
@@ -7,8 +8,8 @@ from src.exception import CustomException
 from src.utils import load_function
 
 class MusicRecommendationModelConfig:
-    preprocessor_path = r'C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\preprocessor.pkl'
-    model_path = r'C:\Users\krish\OneDrive\Desktop\Music Recomendation\notebooks\artifacts\model.pkl'
+    self.preprocessor = load_function(file_path=self.config.preprocessor_path)
+    self.model = load_function(file_path=self.config.model_path)
 
 class MusicRecommendationModel:
     def __init__(self):
